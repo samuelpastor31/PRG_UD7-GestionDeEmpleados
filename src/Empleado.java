@@ -31,6 +31,6 @@ public class Empleado {
     }
 
     public void incrementarSalario(){
-        this.salario = this.salario + (this.salario*0.2);
+        this.salario = this.salario + (this.salario*0.02);
     }
 }

@@ -12,7 +12,15 @@ public class Administrativo extends Empleado{
 
     @Override
     public void incrementarSalario() {
-        super.incrementarSalario();
-        super.salario = super.salario + (salario * 0.5);
+        super.salario = super.salario + (super.salario * 0.05);
+    }
+
+    @Override
+    public String toString() {
+
+        return super.toString()+" Administrativo{" +
+                "despacho=" + despacho +
+                ", numeroFax=" + numeroFax +
+                '}';
     }
 }
