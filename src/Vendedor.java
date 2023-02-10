@@ -48,5 +48,9 @@ public class Vendedor extends Empleado{
         this.coche = coche;
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString()+"NumeroClientes=" + contadorClientes +
+                '}';
+    }
 }
